@@ -1,6 +1,6 @@
 Title: About
 
-##2018 Fall 分組網誌
+##2018 Fall bg3 分組網誌
 
 課程倉儲: <a href="https://github.com/mdecadp2018/finalproject-bg3">https://github.com/mdecadp2018/finalproject-bg3</a>
 
