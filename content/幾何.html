@@ -1,0 +1,135 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>期末分組專案</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img {
+    border: 2px solid blue;
+}
+</style>
+
+<script src="./../static/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+</script>
+
+</head><header><h1>2018 Fall bg3 期末分組網站</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><li><a href='教學影片.html'>教學影片</a><li><a href='課程內容.html'>課程內容</a><li><a href='Onshape.html'>Onshape</a><ul><li><a href='教學.html'>教學</a><ul><li><a href='介面.html'>介面</a><li><a href='幾何.html'>幾何</a></li></li></ul></ul><li><a href='鋼球運動系統.html'>鋼球運動系統</a><li><a href='心得.html'>心得</a></li></ul></nav><section>介面 << <a href='介面.html'>Previous</a> <a href='鋼球運動系統.html'>Next</a> >> 鋼球運動系統<br /><h1>幾何</h1>
+<p>Line ( l ) 線</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_09-57-21.gif" width="800"/></p>
+<p>Corner Rectangle ( g ) 矩形</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-03-20.gif" width="800"/></p>
+<p>Center Point Rectangle ( r ) 中心點矩形</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-06-32.gif" width="800"/></p>
+<p><span style="background-color: #ffffff; color: #626262;">Center Point Circle (</span><span style="background-color: #ffffff; color: #626262;"> </span>c ) 圓</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-10-53.gif" width="800"/></p>
+<p><span style="background-color: #ffffff; color: #626262;">3 Point Circle</span> 3點圓</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-12-46.gif" width="800"/></p>
+<p>Ellipse 橢圓</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-13-45.gif" width="800"/></p>
+<p id="t1773"><madcap:concept term="Browser"><span>3 Point Arc ( a ) 三點弧</span></madcap:concept></p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-15-40.gif" width="800"/></p>
+<p id="t1774"><madcap:concept term="Browser"><span>Tangent Arc 切線弧</span></madcap:concept></p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-16-58.gif" width="800"/></p>
+<p id="t1773"><madcap:concept term="Browser"><span>Center Point Arc 中心點弧</span></madcap:concept></p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-18-16.gif" width="800"/></p>
+<p id="t1444"><madcap:concept term="Browser"><span>Conic 錐</span></madcap:concept></p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-20-00.gif" width="800"/></p>
+<p id="t3561"><madcap:concept term="Browser"><span>Inscribed Polygon 內切多邊形</span></madcap:concept></p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-22-38.gif" width="800"/></p>
+<p id="t3713"><madcap:concept term="Browser"><span>Circumscribed Polygon 外接多邊形</span></madcap:concept></p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-23-54.gif" width="800"/></p>
+<p>Spline 雲型線</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-25-59.gif" width="800"/></p>
+<p>Spline Point 雲型線打點</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-30-52.gif" width="800"/></p>
+<p>Point 點</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-33-15.gif" width="800"/></p>
+<p>Text 文字</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-37-50.gif" width="800"/></p>
+<p>Use ( u ) 投影</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-39-56.gif" width="800"/></p>
+<p>Intersection 相交</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-42-37.gif" width="800"/></p>
+<p>Construction ( q ) 建構</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-46-49.gif" width="800"/></p>
+<p>Sketch Fillet ( Shift - f ) 草圖圓角</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-50-22.gif" width="800"/></p>
+<p>Trim ( m ) 修剪</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-52-10.gif" width="800"/></p>
+<p>Extend ( x ) 延伸</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-53-24.gif" width="800"/></p>
+<p>Split 斷點</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-55-50.gif" width="800"/></p>
+<p>Offset ( o ) 偏移</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_10-59-03.gif" width="800"/></p>
+<p>Slot 直狹槽</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_11-02-17.gif" width="800"/></p>
+<p>Mirror 鏡射</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_11-04-52.gif" width="800"/></p>
+<p>Linear pattern 矩形陣列</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_11-07-11.gif" width="800"/></p>
+<p>Circular pattern 環形陣列</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_11-09-17.gif" width="800"/></p>
+<p>Transform 旋轉</p>
+<p><img alt="" height="391" src="./../images/2018-11-19_11-11-44.gif" width="800"/></p>
+<p></p>
+<p></p><br />介面 << <a href='介面.html'>Previous</a> <a href='鋼球運動系統.html'>Next</a> >> 鋼球運動系統</section></div></body></html>
