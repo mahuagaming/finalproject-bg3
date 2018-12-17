@@ -18,16 +18,17 @@
 <v t="leo.20181204194033.1" a="E"><vh>@path ./../</vh>
 <v t="leo.20181204194048.1"><vh>@edit README.md</vh></v>
 <v t="leo.20181204201447.1"><vh>@edit .gitignore</vh></v>
-<v t="leo.20181204194651.1" a="E"><vh>@path markdown</vh>
+<v t="leo.20181204194651.1"><vh>@path markdown</vh>
 <v t="leo.20181204194700.1"><vh>@edit ieee.csl</vh></v>
 <v t="leo.20181204194732.1"><vh>@edit refer.bib</vh></v>
 <v t="leo.20181204194920.1"><vh>@edit template_en.tex</vh></v>
 <v t="leo.20181204194943.1"><vh>@edit template_zh.tex</vh></v>
+<v t="leo.20181210114529.1"><vh>@edit template_kmol.tex</vh></v>
 </v>
 <v t="leo.20181204193804.1" a="E"><vh>@path markdown</vh>
 <v t="leo.20181204193605.2"><vh>@edit cover_and_abstract.md</vh></v>
 <v t="leo.20181204194856.1"><vh>@edit reference.md</vh></v>
-<v t="leo.20181204193852.1" a="E"><vh>@path paragraph</vh>
+<v t="leo.20181204193852.1"><vh>@path paragraph</vh>
 <v t="leo.20181204193901.1"><vh>@edit introduction.md</vh></v>
 <v t="leo.20181204193941.1"><vh>@edit related_works.md</vh></v>
 <v t="leo.20181204194002.1"><vh>@edit conclusion.md</vh></v>
@@ -122,7 +123,8 @@ import os, platform
 import chapters
 os.chdir("./../markdown")
 
-language = "en"
+# en, zh or kmol
+language = "kmol"
 
 if platform.system().lower()=="linux": font = "ukai.ttc"
 elif platform.system().lower()=="windows": font = "SimSun"
@@ -141,7 +143,7 @@ for i in chapters.sequence():
     
 g.es(chapter_list)
 
-os.system("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag))
+#os.system("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag))
 g.es("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag))
 g.es("PDF 轉換完畢")
 print('-'*12)</t>
