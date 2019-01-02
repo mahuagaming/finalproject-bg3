@@ -30,6 +30,7 @@ author_zh:
 
 author_en:
 advisor_zh:
+- 嚴家銘
 advisor_en:
 date_zh: 中華民國 108 年 01 月
 date_en: |
@@ -39,12 +40,19 @@ date_en: |
 
 <!-- watermark: images/watermark -->
 abstract_zh: |
-    本研究 ...
+    本研究是透過繪製零組件，設計一套鋼球運動系統。
+    
+    首先小組討論後，決議要設計四種不同的運動機構，組員利用Inventor和Onshape先繪製出升降梯、渦旋轉盤、螺桿及飛輪做定位再與軌道配合，設計出一個循環的鋼球運動系統，透過V-rep模擬，檢查機構是否有干涉現象。
 
-    \
-
-    \noindent
-    關鍵詞：
+    機構：
+    
+    1. 升降梯：以馬達帶動偏心輪使樓梯做升降運動
+    
+    2. 渦旋轉盤：以馬達帶動渦旋轉盤做旋轉運動使鋼球上升
+    
+    3. 螺桿：以馬達帶動螺桿做斜向上升運動
+    
+    4. 飛輪：以馬達帶動飛輪做旋轉運動使鋼球上升
 
 abstract_en: |
     About my project ...
