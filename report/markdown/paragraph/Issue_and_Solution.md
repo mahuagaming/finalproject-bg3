@@ -42,7 +42,7 @@ Q：LaTeX 修改名字無法跳行
 
 A：利用 for 迴圈編譯他
 
-![For 迴圈][for-loop]
+![For loop][for-loop]
 
 Q：老師的名字無法顯示在 pdf
 

@@ -47,13 +47,13 @@ $if(CJKmainfont)$
     \def\large{\fontsize{14}{21}\selectfont}%小節次
     \usepackage{indentfirst}
     \usepackage{CJKnumb}
-    \renewcommand{\figurename}{圖}
+    \renewcommand{\figurename}{Figure}
     \renewcommand{\thefigure}{{\arabic{chapter}}.\arabic{figure}}
     \renewcommand{\tablename}{表}
     \renewcommand{\thetable}{{\arabic{chapter}}.\arabic{table}}
     %重製章節
     \renewcommand{\chaptername}{}
-    \renewcommand{\thechapter}{第\CJKnumber{\arabic{chapter}}章}
+    \renewcommand{\thechapter}{Chapter {\arabic{chapter}}}
     \renewcommand{\thesection}{{\arabic{chapter}}.\arabic{section}}
     \renewcommand{\thesubsection}{{\arabic{chapter}}.{\arabic{section}}.\arabic{subsection}}
     %設定行距與中英文字型
@@ -288,10 +288,10 @@ $endif$
 
 % Set page number to arabic i ii...
 \frontmatter
-$if(abstract)$
-\renewcommand{\abstractname}{\LARGE \center 摘要}
-\chapter*{摘要}
-\addcontentsline{toc}{chapter}{摘要}
+$if(Abstract)$
+\renewcommand{\abstractname}{\LARGE \center Abstract}
+\chapter*{abstract}
+\addcontentsline{toc}{chapter}{Abstract}
 \fontsize{14}{21}\selectfont{$abstract$}
 $endif$
 
@@ -301,19 +301,19 @@ $endfor$
 
 $if(toc)$
 \begingroup
-    \renewcommand{\contentsname}{\center 目錄 \addcontentsline{toc}{chapter}{目錄}}
+    \renewcommand{\contentsname}{\center Catalog \addcontentsline{toc}{chapter}{Catalog}}
     \renewcommand{\numberline}[1]{~#1\hspace*{1em}}
     $if(colorlinks)$
     \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
     $endif$
     \setcounter{tocdepth}{$toc-depth$}
     \tableofcontents
-    \newcommand{\lotlabel}{表}
-    \renewcommand{\listtablename}{\center 表目錄 \addcontentsline{toc}{chapter}{表目錄}}
-    \renewcommand{\numberline}[1]{\lotlabel~#1\hspace*{1em}}
-    \listoftables
-    \newcommand{\loflabel}{圖}
-    \renewcommand{\listfigurename}{\center 圖目錄 \addcontentsline{toc}{chapter}{圖目錄}}
+    %\newcommand{\lotlabel}{表}
+   % \renewcommand{\listtablename}{\center 表目錄 \addcontentsline{toc}{chapter}{表目錄}}
+    %\renewcommand{\numberline}[1]{\lotlabel~#1\hspace*{1em}}
+    %\listoftables
+    \newcommand{\loflabel}{Figure}
+    \renewcommand{\listfigurename}{\center Chart Catalog \addcontentsline{toc}{chapter}{Chart Catalog}}
     \renewcommand{\numberline}[1]{\loflabel~#1\hspace*{1em}}
     \listoffigures
 \endgroup

@@ -28,7 +28,7 @@
 <v t="ahshoe.20170322181453.1"><vh>@edit refer.bib</vh></v>
 <v t="leo.20171119234752.1" a="E"><vh>封面以及摘要</vh>
 <v t="ahshoe.20161120122151.1" a="E"><vh>@clean cover_and_abstract.md</vh>
-<v t="ahshoe.20170317115820.1"><vh>摘要</vh></v>
+<v t="ahshoe.20170317115820.1"><vh>abstract</vh></v>
 </v>
 </v>
 <v t="leo.20171119234822.1" a="E"><vh>各章節內容</vh>
@@ -53,9 +53,6 @@
 </v>
 <v t="yen.20170429215617.1" a="E"><vh>@clean conclusion.md</vh>
 <v t="yen.20170429215851.1"><vh>Conclusion</vh></v>
-</v>
-<v t="yen.20170429215922.1" a="E"><vh>@clean references.md</vh>
-<v t="yen.20170429220001.1"><vh>references</vh></v>
 </v>
 </v>
 </v>
@@ -93,7 +90,7 @@ chapter_list = " ".join("./paragraph/" + i for i in [
 "design_process_and_introduction.md", 
 "issue_and_solution.md", 
 "conclusion.md", 
-"references.md", 
+#"references.md", 
 #"github.md", 
 #"fossil.md", 
 #"onshape.md", 
@@ -209,19 +206,19 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="ahshoe.20170317115820.1">---
 abstract: |
-    本研究是透過繪製零組件，設計一套鋼球運動系統。
+    This study designed a marble machine system by drawing components.
 
-    首先小組討論後，決議要設計四種不同的運動機構，組員利用Inventor和Onshape先繪製出升降梯、渦旋轉盤、螺桿及飛輪做定位再與軌道配合，設計出一個循環的鋼球運動系統，透過V-rep模擬，檢查機構是否有干涉現象。
+    After the group discussion, the resolution was to design four different mechanisms. The group members used Inventor and Onshape to draw the lift, vortex rotating disk, screw and flywheel to locate and cooperate with the track to design a circular marble machine system. Through the V-rep simulation, check the mechanism for interference.
 
-    機構：
-    
-    1. 升降梯：以馬達帶動偏心輪使樓梯做升降運動
-    
-    2. 渦旋轉盤：以馬達帶動渦旋轉盤做旋轉運動使鋼球上升
-    
-    3. 螺桿：以馬達帶動螺桿做斜向上升運動
-    
-    4. 飛輪：以馬達帶動飛輪做旋轉運動使鋼球上升
+    The four mechanism:
+
+    1.Lift: Use the motor to drive the eccentric wheel to make the stairs lifting movement.
+
+    2.Vortex rotating disk: The motor rotates the disk to rise the ball.
+
+    3.Screw: The motor drives the screw to do oblique upward motion.
+
+    4.Flywheel: Use the motor to drive the flywheel to make a rotary motion to raise the ball.
     
 ---
 
@@ -239,24 +236,16 @@ c:\users\cadlab\desktop\mde\python2017fall_36\data\miktex_portable\miktex-portab
 <t tx="leo.20171119233845.1">https://sourceforge.net/p/miktex/discussion/33790/thread/fcf98fa1/</t>
 <t tx="leo.20171119234752.1"></t>
 <t tx="leo.20171119234822.1"></t>
-<t tx="leo.20190104143311.1">設計動機
+<t tx="leo.20190104143311.1">Design Motivation
 ---
 
-分組後，在老師給的八個題目中，討論並研究每個題目，最後選擇了鋼球運動系統這個專題，因為鋼球運動系統是最為符合我們的能力，所以決定自己設計，經過多方研究，決定要做一座給鋼球運動的遊樂場，而且看著球球一直滾~滾~滾~，非常的療癒，讓心情不好的大家能夠紓壓。</t>
+分組後，在老師給的八個題目中，討論並研究每個題目，最後選擇了鋼球運動系統這個專題，因為鋼球運動系統是最為符合我們的能力，所以決定自己設計，經過多方研究，決定要做一座給鋼球運動的遊樂場，而且看著球球一直滾~滾~滾~滾~，非常的療癒，讓心情不好的大家能夠紓壓。
+
+</t>
 <t tx="leo.20190104152007.1">Onshape
 ---
 
-Windows 的內容
 
-有一張圖片：
-
-![Start.bat][]
-
-稱為圖 {@fig:駱駝}。
-
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
-
-[Start.bat]: ./images/application_software/start.bat.png {#fig:Start.bat}
 
 </t>
 <t tx="yen.20170429103742.1"></t>
@@ -287,10 +276,12 @@ sudo apt-get install fonts-arphic-ukai</t>
 
 @others
 </t>
-<t tx="yen.20170429214838.3">設計目的
+<t tx="yen.20170429214838.3">Design Purpose
 ---
 
-此專題的目的在於熟練的使用Onshape繪製零組件及V – rep的模擬，增進自己的實力並將這個系統套用在未來的實務應用上，為此我們從網路上搜尋有關的影片和參考學長姐做的專題。然而我們參考的資料大部分做得太過單一，使我們想要做出較多機構互相配合的系統，設計出屬於自己的鋼球模擬系統。</t>
+此專題的目的在於熟練的使用Onshape繪製零組件及V – rep的模擬，增進自己的實力並將這個系統套用在未來的實務應用上，為此我們從網路上搜尋有關的影片和參考學長姐做的專題。然而我們參考的資料大部分做得太過單一，使我們想要做出較多機構互相配合的系統，設計出屬於自己的鋼球模擬系統。
+
+</t>
 <t tx="yen.20170429214845.1"></t>
 <t tx="yen.20170429215041.1">Application Software
 ===
@@ -335,7 +326,8 @@ Ubuntu 的內容
 
 過程與介紹
 
-@others</t>
+@others
+</t>
 <t tx="yen.20170429215308.1">Process
 ---
 
@@ -349,9 +341,12 @@ IPv4 的內容
 
 各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
 
-[Kmol]: ./images/computer_network/kmol.png {#fig:駱駝}</t>
+[Kmol]: ./images/computer_network/kmol.png {#fig:駱駝}
+
+</t>
 <t tx="yen.20170429215316.1">Introduction
 ---
+
 
 </t>
 <t tx="yen.20170429215416.1">Issue &amp; Solution
@@ -359,7 +354,8 @@ IPv4 的內容
 
 Q&amp;A
 
-@others</t>
+@others
+</t>
 <t tx="yen.20170429215446.2">Design
 ---
 
@@ -369,7 +365,9 @@ A：
 
 Q：
 
-A：</t>
+A：
+
+</t>
 <t tx="yen.20170429215446.3">V-rep
 ---
 
@@ -383,7 +381,9 @@ A：因為實體跟實體的間隔不可能為0，所以零件跟零件間要有
 
 Q：軌道開了實體碰撞，模擬就會非常 lag
 
-A：將軌道的實體碰撞開至只與球進行碰撞</t>
+A：將軌道的實體碰撞開至只與球進行碰撞
+
+</t>
 <t tx="yen.20170429215446.4">Report
 ---
 
@@ -397,7 +397,7 @@ Q：LaTeX 修改名字無法跳行
 
 A：利用 for 迴圈編譯他
 
-![For 迴圈][for-loop]
+![For loop][for-loop]
 
 Q：老師的名字無法顯示在 pdf
 
@@ -437,13 +437,17 @@ A：路徑錯誤，要在 images 底下執行
 
 [modify-chapers]: images/issue-and-solution/modify-chapers.png {#fig:modify-chapers}
 
-[image]: images/issue-and-solution/image.png {#fig:image}</t>
+[image]: images/issue-and-solution/image.png {#fig:image}
+
+
+</t>
 <t tx="yen.20170429215617.1">Conclusion
 ===
 
 結論
 
-@others</t>
+@others
+</t>
 <t tx="yen.20170429215851.1">Conclusion
 ---
 
@@ -475,16 +479,7 @@ Table: 價目表 {#tbl:價目表}
 
 [http://www.tablesgenerator.com/markdown_tables]: http://www.tablesgenerator.com/markdown_tables
 
+
 </t>
-<t tx="yen.20170429215922.1">References
-===
-
-Leo Editor 的概要
-
-@others</t>
-<t tx="yen.20170429220001.1">References
----
-
-參考文獻</t>
 </tnodes>
 </leo_file>

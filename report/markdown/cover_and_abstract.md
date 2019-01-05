@@ -17,19 +17,19 @@ date: '2019.01.07'
 
 ---
 abstract: |
-    本研究是透過繪製零組件，設計一套鋼球運動系統。
+    This study designed a marble machine system by drawing components.
 
-    首先小組討論後，決議要設計四種不同的運動機構，組員利用Inventor和Onshape先繪製出升降梯、渦旋轉盤、螺桿及飛輪做定位再與軌道配合，設計出一個循環的鋼球運動系統，透過V-rep模擬，檢查機構是否有干涉現象。
+    After the group discussion, the resolution was to design four different mechanisms. The group members used Inventor and Onshape to draw the lift, vortex rotating disk, screw and flywheel to locate and cooperate with the track to design a circular marble machine system. Through the V-rep simulation, check the mechanism for interference.
 
-    機構：
-    
-    1. 升降梯：以馬達帶動偏心輪使樓梯做升降運動
-    
-    2. 渦旋轉盤：以馬達帶動渦旋轉盤做旋轉運動使鋼球上升
-    
-    3. 螺桿：以馬達帶動螺桿做斜向上升運動
-    
-    4. 飛輪：以馬達帶動飛輪做旋轉運動使鋼球上升
+    The four mechanism:
+
+    1.Lift: Use the motor to drive the eccentric wheel to make the stairs lifting movement.
+
+    2.Vortex rotating disk: The motor rotates the disk to rise the ball.
+
+    3.Screw: The motor drives the screw to do oblique upward motion.
+
+    4.Flywheel: Use the motor to drive the flywheel to make a rotary motion to raise the ball.
     
 ---
 
