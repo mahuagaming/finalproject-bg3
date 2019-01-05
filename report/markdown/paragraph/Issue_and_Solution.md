@@ -6,63 +6,63 @@ Q&A
 Design
 ---
 
-Q：丟到 v-rep 模擬時很容易有干涉，在模擬過程中，鋼球很容易卡住
+Q： Putting the mechanism to the V-rep is easy to interfere when simulating. And, the ball is easy to get stuck in one place in the process.
 
-A：增加軌道斜度或高度
+A：Increase the slope or height of the track
 
 V-rep
 ---
 
-Q：零件無法拆開
+Q：Components cannot be separated
 
-A：零件跟零件間要有空隙，合在一起會被當成一個零件
+A：There must be a gap between the part and the part, and put them together to be one part.
 
-Q：開了實體碰撞，零件無法在正常的軌道上運作，會一直抖動
+Q：Turn on body is respondable, the components cannot operate on the normal track, it will flutter.
 
-A：因為實體跟實體的間隔不可能為0，所以零件跟零件間要有空隙
+A：Because the interval between the solid and the solid cannot be 0, there must be gap.
 
-Q：軌道開了實體碰撞，模擬就會非常 lag
+Q：Turn on body is respondable for the track, the simulation will be very lag.
 
-A：將軌道的實體碰撞開至只與球進行碰撞
+A：Turn it to collide with the ball.
 
 Report
 ---
 
-Q：Pandoc 找不到路徑
+Q："Pandoc" Path not found
 
-A：需在 start.bat 設置 path2 及啟動 path2
+A：Need to set "path2" and start "path2" in "start.bat"
 
 ![Start.bat][start-bat]
 
-Q：LaTeX 修改名字無法跳行
+Q："LaTeX" Modify name can't skip a line
 
-A：利用 for 迴圈編譯他
+A：Use "for" loop to compile it
 
 ![For loop][for-loop]
 
-Q：老師的名字無法顯示在 pdf
+Q：The teacher's name can't be displayed in pdf
 
-A：在 advisor_zh: 跳行加 - 空格再書寫
+A：In "advisor_zh:", skip a line, add "-" and space to write
 
 ![Advisor][advisor]
 
-Q：無法在 leo 轉 pdf
+Q：Can't transfer pdf in "Leo"
 
 ![transform-mistake][]
 
-A：到指定路徑下執行
+A：Excute to specified path
 
 ![transform-correct][]
 
-Q：無法更新目錄
+Q：Unbale to update catalog
 
-A：在 button Report pdf 下修改目錄名稱
+A：Modify the catalog name under "button Report pdf"
 
 ![modify-chapers][]
 
-Q：圖片無法顯示
+Q：Images can't be displayed
 
-A：路徑錯誤，要在 images 底下執行
+A：Path is wrong. Excute under "images"
 
 ![image][]
 

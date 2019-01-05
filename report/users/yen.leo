@@ -37,12 +37,12 @@
 <v t="leo.20190104143311.1"><vh>motivation</vh></v>
 <v t="yen.20170429214838.3"><vh>purpose</vh></v>
 </v>
-<v t="yen.20170429215041.1"><vh>@clean application_software.md</vh>
+<v t="yen.20170429215041.1" a="E"><vh>@clean application_software.md</vh>
 <v t="leo.20190104152007.1"><vh>Onshape</vh></v>
 <v t="yen.20170429215130.1"><vh>Inventor</vh></v>
 <v t="yen.20170429215205.1"><vh>V-rep</vh></v>
 </v>
-<v t="yen.20170429215252.1"><vh>@clean design_introduction.md</vh>
+<v t="yen.20170429215252.1" a="E"><vh>@clean design_introduction.md</vh>
 <v t="yen.20170429215316.1"><vh>introduction</vh></v>
 </v>
 <v t="leo.20190105165731.1" a="E"><vh>@clean process.md</vh>
@@ -217,15 +217,7 @@ abstract: |
 
     After the group discussion, the resolution was to design four different mechanisms. The group members used Inventor and Onshape to draw the lift, vortex rotating disk, screw and flywheel to locate and cooperate with the track to design a circular marble machine system. Through the V-rep simulation, check the mechanism for interference.
 
-    The four mechanism:
-
-    1.Lift: Use the motor to drive the eccentric wheel to make the stairs lifting movement.
-
-    2.Vortex rotating disk: The motor rotates the disk to rise the ball.
-
-    3.Screw: The motor drives the screw to do oblique upward motion.
-
-    4.Flywheel: Use the motor to drive the flywheel to make a rotary motion to raise the ball.
+   
     
 ---
 
@@ -266,7 +258,9 @@ Onshape upgrades are released directly to the web interface, and the software do
 
 [Lift]: images/application-software/Lift.png {#fig:Lift}
 
-[Vortex-rotating-disk]: images/application-software/Vortex-rotating-disk.png {#fig:Vortex-rotating-disk}</t>
+[Vortex-rotating-disk]: images/application-software/Vortex-rotating-disk.png {#fig:Vortex-rotating-disk}
+
+</t>
 <t tx="leo.20190105165731.1">Process
 ===
 
@@ -281,21 +275,22 @@ Onshape upgrades are released directly to the web interface, and the software do
 
 [Process]: images/process/process.png {#fig:Process}
 
-Topic：在眾多題目中選定鋼球運動系統
+Topic：Selected the marble machine system among many topics
 
-Reference：參考網路上的影片
+Reference：Refer to the video on the web
 
-Website：編輯期末分組網站
+Website：Edit the final project website
 
-Design：設計機構與配合
+Design：Design and coordinate the mechanism 
 
-Simulation：用V-rep模擬讓球在軌道上運動
+Simulation：Use V-rep to simulate and move the ball in the track
 
-Report：製作專題報告
+Report：Make independent study
 
-Reveal：報告專題重點及工作分配
+Reveal：Inform the focus and assignments
 
-Finish：報告完成</t>
+Finish：Report completed
+</t>
 <t tx="leo.20190105170855.1">Assignments
 ===
 
@@ -349,7 +344,9 @@ sudo apt-get install fonts-arphic-ukai</t>
 <t tx="yen.20170429214838.3">Design Purpose
 ---
 
-The purpose of this topic is to skillfully use Onshape to draw components and V-rep simulations, promote our own strength and apply the system to the future practical applications. For the reason, we search for the related videos on the web and refer to the topic of the senior sister. However, we refer to most of the data to be single. It makes us want to make more mechanism to coordinate with each other and design our own marble machine system.</t>
+The purpose of this topic is to skillfully use Onshape to draw components and V-rep simulations, promote our own strength and apply the system to the future practical applications. For the reason, we search for the related videos on the web and refer to the topic of the senior sister. However, we refer to most of the data to be single. It makes us want to make more mechanism to coordinate with each other and design our own marble machine system.
+
+</t>
 <t tx="yen.20170429214845.1"></t>
 <t tx="yen.20170429215041.1">Application Software
 ===
@@ -371,7 +368,9 @@ Inventor allows 2D and 3D data integration in a single environment, creating a v
 
 [Screw-and-Flywheel]: images/application-software/Screw-and-Flywheel.png {#fig:Screw-and-Flywheel}
 
-[Assembly]: images/application-software/Assembly.png {#fig:Assembly}</t>
+[Assembly]: images/application-software/Assembly.png {#fig:Assembly}
+
+</t>
 <t tx="yen.20170429215205.1">V-rep
 ---
 
@@ -391,8 +390,17 @@ V-rep provides a unified framework combining many powerful internal and external
 <t tx="yen.20170429215316.1">Introduction
 ---
 
+ The four mechanism:
 
-</t>
+    1.Lift: Use the motor to drive the eccentric wheel to make the stairs lifting movement.
+
+    2.Vortex rotating disk: The motor rotates the disk to rise the ball.
+
+    3.Screw: The motor drives the screw to do oblique upward motion.
+
+    4.Flywheel: Use the motor to drive the flywheel to make a rotary motion to raise the ball.
+
+![Simulation][]</t>
 <t tx="yen.20170429215416.1">Issue &amp; Solution
 ===
 
@@ -403,63 +411,61 @@ Q&amp;A
 <t tx="yen.20170429215446.2">Design
 ---
 
-Q：丟到 v-rep 模擬時很容易有干涉，在模擬過程中，鋼球很容易卡住
+Q： Putting the mechanism to the V-rep is easy to interfere when simulating. And, the ball is easy to get stuck in one place in the process.
 
-A：增加軌道斜度或高度</t>
+A：Increase the slope or height of the track</t>
 <t tx="yen.20170429215446.3">V-rep
 ---
 
-Q：零件無法拆開
+Q：Components cannot be separated
 
-A：零件跟零件間要有空隙，合在一起會被當成一個零件
+A：There must be a gap between the part and the part, and put them together to be one part.
 
-Q：開了實體碰撞，零件無法在正常的軌道上運作，會一直抖動
+Q：Turn on body is respondable, the components cannot operate on the normal track, it will flutter.
 
-A：因為實體跟實體的間隔不可能為0，所以零件跟零件間要有空隙
+A：Because the interval between the solid and the solid cannot be 0, there must be gap.
 
-Q：軌道開了實體碰撞，模擬就會非常 lag
+Q：Turn on body is respondable for the track, the simulation will be very lag.
 
-A：將軌道的實體碰撞開至只與球進行碰撞
-
-</t>
+A：Turn it to collide with the ball.</t>
 <t tx="yen.20170429215446.4">Report
 ---
 
-Q：Pandoc 找不到路徑
+Q："Pandoc" Path not found
 
-A：需在 start.bat 設置 path2 及啟動 path2
+A：Need to set "path2" and start "path2" in "start.bat"
 
 ![Start.bat][start-bat]
 
-Q：LaTeX 修改名字無法跳行
+Q："LaTeX" Modify name can't skip a line
 
-A：利用 for 迴圈編譯他
+A：Use "for" loop to compile it
 
 ![For loop][for-loop]
 
-Q：老師的名字無法顯示在 pdf
+Q：The teacher's name can't be displayed in pdf
 
-A：在 advisor_zh: 跳行加 - 空格再書寫
+A：In "advisor_zh:", skip a line, add "-" and space to write
 
 ![Advisor][advisor]
 
-Q：無法在 leo 轉 pdf
+Q：Can't transfer pdf in "Leo"
 
 ![transform-mistake][]
 
-A：到指定路徑下執行
+A：Excute to specified path
 
 ![transform-correct][]
 
-Q：無法更新目錄
+Q：Unbale to update catalog
 
-A：在 button Report pdf 下修改目錄名稱
+A：Modify the catalog name under "button Report pdf"
 
 ![modify-chapers][]
 
-Q：圖片無法顯示
+Q：Images can't be displayed
 
-A：路徑錯誤，要在 images 底下執行
+A：Path is wrong. Excute under "images"
 
 ![image][]
 
@@ -489,6 +495,7 @@ A：路徑錯誤，要在 images 底下執行
 <t tx="yen.20170429215851.1">Conclusion
 ---
 
+We suffer a lot of setbacks in the process at this time, such as assembly interference. It cause the mechanism not to operate smoothly during the simulation and PDF has been unable to solve the problem. With the help of teacher and seniors, we solved our long-standing problems successfully. There have also been differences in opinions among members. After many intense discussions, make everyone know each otther's ideas, unify everyone's opinion and assign appropriate task to each other so that to complete the final project efficiently.
 </t>
 </tnodes>
 </leo_file>

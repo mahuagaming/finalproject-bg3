@@ -21,15 +21,7 @@ abstract: |
 
     After the group discussion, the resolution was to design four different mechanisms. The group members used Inventor and Onshape to draw the lift, vortex rotating disk, screw and flywheel to locate and cooperate with the track to design a circular marble machine system. Through the V-rep simulation, check the mechanism for interference.
 
-    The four mechanism:
-
-    1.Lift: Use the motor to drive the eccentric wheel to make the stairs lifting movement.
-
-    2.Vortex rotating disk: The motor rotates the disk to rise the ball.
-
-    3.Screw: The motor drives the screw to do oblique upward motion.
-
-    4.Flywheel: Use the motor to drive the flywheel to make a rotary motion to raise the ball.
+   
     
 ---
 

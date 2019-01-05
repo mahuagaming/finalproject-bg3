@@ -10,19 +10,18 @@ Process
 
 [Process]: images/process/process.png {#fig:Process}
 
-Topic：在眾多題目中選定鋼球運動系統
+Topic：Selected the marble machine system among many topics
 
-Reference：參考網路上的影片
+Reference：Refer to the video on the web
 
-Website：編輯期末分組網站
+Website：Edit the final project website
 
-Design：設計機構與配合
+Design：Design and coordinate the mechanism 
 
-Simulation：用V-rep模擬讓球在軌道上運動
+Simulation：Use V-rep to simulate and move the ball in the track
 
-Report：製作專題報告
+Report：Make independent study
 
-Reveal：報告專題重點及工作分配
+Reveal：Inform the focus and assignments
 
-Finish：報告完成
-
+Finish：Report completed
