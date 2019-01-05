@@ -6,17 +6,25 @@ Design Process and Introduction
 Process
 ---
 
-IPv4 的內容
+![Process][]
 
-有一張圖片：
+[Process]: images/design-process-and-introduction/process.png {#fig:Process}
 
-![Kmol][]
+Topic：在眾多題目中選定鋼球運動系統
 
-稱為圖 {@fig:駱駝}。
+Reference：參考網路上的影片
 
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
+Website：編輯期末分組網站
 
-[Kmol]: ./images/computer_network/kmol.png {#fig:駱駝}
+Design：設計機構與配合
+
+Simulation：用V-rep模擬讓球在軌道上運動
+
+Report：製作專題報告
+
+Reveal：報告專題重點及分作分配
+
+Finish：球球要去台南玩了
 
 Introduction
 ---

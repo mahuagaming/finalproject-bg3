@@ -6,10 +6,10 @@ Preface
 Design Motivation
 ---
 
-分組後，在老師給的八個題目中，討論並研究每個題目，最後選擇了鋼球運動系統這個專題，因為鋼球運動系統是最為符合我們的能力，所以決定自己設計，經過多方研究，決定要做一座給鋼球運動的遊樂場，而且看著球球一直滾~滾~滾~滾~，非常的療癒，讓心情不好的大家能夠紓壓。
+After grouping,among the eight subjects given by the teacher,we discussed and studied each subject. Finally, we selected the topic of the marble machine system. Because the marble machine system is the suitable for our ability, we decided to design the system by ourselves. After the research in many aspect, decided to build a playground for the marble machine system, and watch the bo~bo~ always rolling. It's soothing that make everyone calm.
 
 Design Purpose
 ---
 
-此專題的目的在於熟練的使用Onshape繪製零組件及V – rep的模擬，增進自己的實力並將這個系統套用在未來的實務應用上，為此我們從網路上搜尋有關的影片和參考學長姐做的專題。然而我們參考的資料大部分做得太過單一，使我們想要做出較多機構互相配合的系統，設計出屬於自己的鋼球模擬系統。
+The purpose of this topic is to skillfully use Onshape to draw components and V-rep simulations, promote our own strength and apply the system to the future practical applications. For the reason, we search for the related videos on the web and refer to the topic of the senior sister. However, we refer to most of the data to be single. It makes us want to make more mechanism to coordinate with each other and design our own marble machine system.
 

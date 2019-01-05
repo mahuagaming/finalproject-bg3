@@ -37,19 +37,24 @@
 <v t="leo.20190104143311.1"><vh>motivation</vh></v>
 <v t="yen.20170429214838.3"><vh>purpose</vh></v>
 </v>
-<v t="yen.20170429215041.1" a="E"><vh>@clean application_software.md</vh>
+<v t="yen.20170429215041.1"><vh>@clean application_software.md</vh>
 <v t="leo.20190104152007.1"><vh>Onshape</vh></v>
 <v t="yen.20170429215130.1"><vh>Inventor</vh></v>
 <v t="yen.20170429215205.1"><vh>V-rep</vh></v>
 </v>
-<v t="yen.20170429215252.1" a="E"><vh>@clean design_process_and_introduction.md</vh>
-<v t="yen.20170429215308.1"><vh>process</vh></v>
+<v t="yen.20170429215252.1"><vh>@clean design_introduction.md</vh>
 <v t="yen.20170429215316.1"><vh>introduction</vh></v>
+</v>
+<v t="leo.20190105165731.1" a="E"><vh>@clean process.md</vh>
+<v t="leo.20190105165731.2"><vh>process</vh></v>
 </v>
 <v t="yen.20170429215416.1" a="E"><vh>@clean issue_and_solution.md</vh>
 <v t="yen.20170429215446.2"><vh>design</vh></v>
 <v t="yen.20170429215446.3"><vh>v-rep</vh></v>
 <v t="yen.20170429215446.4"><vh>report</vh></v>
+</v>
+<v t="leo.20190105170855.1" a="E"><vh>@clean assignments.md</vh>
+<v t="leo.20190105170855.2"><vh>Assignments</vh></v>
 </v>
 <v t="yen.20170429215617.1" a="E"><vh>@clean conclusion.md</vh>
 <v t="yen.20170429215851.1"><vh>Conclusion</vh></v>
@@ -87,8 +92,10 @@ print("---Pandoc---")
 chapter_list = " ".join("./paragraph/" + i for i in [
 "preface.md",
 "application_software.md", 
-"design_process_and_introduction.md", 
+"design_introduction.md", 
+"process.md", 
 "issue_and_solution.md", 
+"assignments.md", 
 "conclusion.md", 
 #"references.md", 
 #"github.md", 
@@ -239,14 +246,77 @@ c:\users\cadlab\desktop\mde\python2017fall_36\data\miktex_portable\miktex-portab
 <t tx="leo.20190104143311.1">Design Motivation
 ---
 
-分組後，在老師給的八個題目中，討論並研究每個題目，最後選擇了鋼球運動系統這個專題，因為鋼球運動系統是最為符合我們的能力，所以決定自己設計，經過多方研究，決定要做一座給鋼球運動的遊樂場，而且看著球球一直滾~滾~滾~滾~，非常的療癒，讓心情不好的大家能夠紓壓。
+After grouping,among the eight subjects given by the teacher,we discussed and studied each subject. Finally, we selected the topic of the marble machine system. Because the marble machine system is the suitable for our ability, we decided to design the system by ourselves. After the research in many aspect, decided to build a playground for the marble machine system, and watch the bo~bo~ always rolling. It's soothing that make everyone calm.
 
 </t>
 <t tx="leo.20190104152007.1">Onshape
 ---
 
+Onshape is a computer-aided design (CAD) software system, delivered over the Internet via a Software as a Service (SAAS) model.
 
+Onshape makes extensive use of cloud computing. 
 
+Onshape allows teams to collaborate on a single shared design, the same way multiple writers can work together editing a shared document via cloud services. 
+
+Onshape upgrades are released directly to the web interface, and the software does not require maintenance work from the user.
+
+![Lift][]
+
+![Vortex-rotating-disk][]
+
+[Lift]: images/application-software/Lift.png {#fig:Lift}
+
+[Vortex-rotating-disk]: images/application-software/Vortex-rotating-disk.png {#fig:Vortex-rotating-disk}</t>
+<t tx="leo.20190105165731.1">Process
+===
+
+過程
+
+@others
+</t>
+<t tx="leo.20190105165731.2">Process
+---
+
+![Process][]
+
+[Process]: images/process/process.png {#fig:Process}
+
+Topic：在眾多題目中選定鋼球運動系統
+
+Reference：參考網路上的影片
+
+Website：編輯期末分組網站
+
+Design：設計機構與配合
+
+Simulation：用V-rep模擬讓球在軌道上運動
+
+Report：製作專題報告
+
+Reveal：報告專題重點及工作分配
+
+Finish：報告完成</t>
+<t tx="leo.20190105170855.1">Assignments
+===
+
+工作分配
+
+@others
+</t>
+<t tx="leo.20190105170855.2">Assignments
+---
+
+40623203 蔡宜芳：Onshape Interface and Geometry, Website, PDF
+
+40623206 邱妍蓁：Onshape Drawing
+
+40623207 呂沛蓉：Onshape Sheet Metal
+
+40623244 林俊鎧：Design, Translation, inform
+
+40623248 廖柏誠：Onshape Assembled, Design, V-rep
+
+40623250 湯峻傑：Onshape Constraint and Feature, Design
 </t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
@@ -279,9 +349,7 @@ sudo apt-get install fonts-arphic-ukai</t>
 <t tx="yen.20170429214838.3">Design Purpose
 ---
 
-此專題的目的在於熟練的使用Onshape繪製零組件及V – rep的模擬，增進自己的實力並將這個系統套用在未來的實務應用上，為此我們從網路上搜尋有關的影片和參考學長姐做的專題。然而我們參考的資料大部分做得太過單一，使我們想要做出較多機構互相配合的系統，設計出屬於自己的鋼球模擬系統。
-
-</t>
+The purpose of this topic is to skillfully use Onshape to draw components and V-rep simulations, promote our own strength and apply the system to the future practical applications. For the reason, we search for the related videos on the web and refer to the topic of the senior sister. However, we refer to most of the data to be single. It makes us want to make more mechanism to coordinate with each other and design our own marble machine system.</t>
 <t tx="yen.20170429214845.1"></t>
 <t tx="yen.20170429215041.1">Application Software
 ===
@@ -293,56 +361,32 @@ sudo apt-get install fonts-arphic-ukai</t>
 <t tx="yen.20170429215130.1">Inventor
 ---
 
-Windows 的內容
+Autodesk Inventor is a computer-aided design application for 3D mechanical design, simulation, visualization, and documentation developed.
 
-有一張圖片：
+Inventor allows 2D and 3D data integration in a single environment, creating a virtual representation of the final product that enables users to validate the form, fit, and function of the product before it is ever built. Autodesk Inventor includes powerful parametric, direct edit and freeform modeling tools as well as multi-CAD translation capabilities and in their standard DWG™ drawings. 
 
-![Kmol][]
+![Screw-and-Flywheel][]
 
-稱為圖 {@fig:駱駝}。
+![Assembly][]
 
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
+[Screw-and-Flywheel]: images/application-software/Screw-and-Flywheel.png {#fig:Screw-and-Flywheel}
 
-</t>
+[Assembly]: images/application-software/Assembly.png {#fig:Assembly}</t>
 <t tx="yen.20170429215205.1">V-rep
 ---
 
-Ubuntu 的內容
+V-rep provides a unified framework combining many powerful internal and external libraries that are often useful for robotics simulations. This includes dynamic simulation engines, forward/inverse kinematics tools, collision detection libraries, vision sensor simulations, path planning, GUI development tools, and built-in models of many common robots.
 
-有一張圖片：
+![Simulation][]
 
-![Kmol][]
-
-稱為圖 {@fig:駱駝}。
-
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
-
-[Kmol]: ./images/operating_system/kmol.png {#fig:駱駝}
-
-
+[Simulation]: images/application-software/bobo.gif {#fig:Simulationl}
 </t>
-<t tx="yen.20170429215252.1">Design Process and Introduction
+<t tx="yen.20170429215252.1">Design Introduction
 ===
 
-過程與介紹
+介紹
 
 @others
-</t>
-<t tx="yen.20170429215308.1">Process
----
-
-IPv4 的內容
-
-有一張圖片：
-
-![Kmol][]
-
-稱為圖 {@fig:駱駝}。
-
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
-
-[Kmol]: ./images/computer_network/kmol.png {#fig:駱駝}
-
 </t>
 <t tx="yen.20170429215316.1">Introduction
 ---
@@ -359,15 +403,9 @@ Q&amp;A
 <t tx="yen.20170429215446.2">Design
 ---
 
-Q：
+Q：丟到 v-rep 模擬時很容易有干涉，在模擬過程中，鋼球很容易卡住
 
-A：
-
-Q：
-
-A：
-
-</t>
+A：增加軌道斜度或高度</t>
 <t tx="yen.20170429215446.3">V-rep
 ---
 
@@ -377,7 +415,7 @@ A：零件跟零件間要有空隙，合在一起會被當成一個零件
 
 Q：開了實體碰撞，零件無法在正常的軌道上運作，會一直抖動
 
-A：因為實體跟實體的間隔不可能為0，所以零件跟零件間要有空隙，
+A：因為實體跟實體的間隔不可能為0，所以零件跟零件間要有空隙
 
 Q：軌道開了實體碰撞，模擬就會非常 lag
 
@@ -450,35 +488,6 @@ A：路徑錯誤，要在 images 底下執行
 </t>
 <t tx="yen.20170429215851.1">Conclusion
 ---
-
-自動控制 的內容
-
-其中包含一個表格：
-
-Table: Python 網際框架比較 {#tbl:網際框架}
-
-| Framework | Started | Py2 | Py3 | ORM | Template Engine | Auth Moudule | Database Admin | Project Scale |
-|:---------:|:-------:|:---:|:---:|:---:|:---------------:|:------------:|:--------------:|:-------------:|
-| Pyramid | 2005 | V | V |  |  | V |  | large |
-| Django | 2006 | V | V | V | V | V | V | large |
-| Flask | 2010 | V |  |  |  |  |  | small |
-
-稱為表 {@tbl:網際框架}。
-
-Table: 價目表 {#tbl:價目表}
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-稱為表 {@tbl:價目表}。
-
-關於表格生成可以參考這裡：[http://www.tablesgenerator.com/markdown_tables]
-
-[http://www.tablesgenerator.com/markdown_tables]: http://www.tablesgenerator.com/markdown_tables
-
 
 </t>
 </tnodes>
