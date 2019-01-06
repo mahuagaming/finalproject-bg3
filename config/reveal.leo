@@ -443,7 +443,7 @@ make.start()
 </t>
 <t tx="leo.20190105185034.2">## 過程
 
-&lt;img src="https://github.com/mdecadp2018/finalproject-bg3/blob/gh-pages/images/process.png"  height="400" width="900"&gt;
+&lt;img src="https://github.com/mdecadp2018/finalproject-bg3/blob/gh-pages/reveal/picture/process.png?raw=true"  height="400" width="900"&gt;
 </t>
 <t tx="leo.20190105185037.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
