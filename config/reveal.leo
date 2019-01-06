@@ -42,7 +42,7 @@
 <v t="leo.20190105185037.1" a="E"><vh>設計介紹</vh>
 <v t="leo.20190105185037.2"><vh>introduction</vh></v>
 </v>
-<v t="leo.20190105185034.1"><vh>過程</vh>
+<v t="leo.20190105185034.1" a="E"><vh>過程</vh>
 <v t="leo.20190105185034.2"><vh>process</vh></v>
 </v>
 <v t="leo.20180827201621.9"><vh>設計問題</vh>
@@ -162,7 +162,9 @@ vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
 <t tx="leo.20180827201621.10"># 設計問題
 
-* 丟到 v-rep 模擬時很容易有干涉，在模擬過程中，鋼球很容易卡住</t>
+* 丟到 v-rep 模擬時很容易有干涉，在模擬過程中，鋼球很容易卡住
+
+</t>
 <t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -365,7 +367,9 @@ make.start()
 <t tx="leo.20190105182047.2"># 目的
 
 * 熟練的使用Onshape繪製零組件及V–rep的模擬
-* 增進自己的實力並將這個系統套用在未來的實務應用上</t>
+* 增進自己的實力並將這個系統套用在未來的實務應用上
+
+</t>
 <t tx="leo.20190105182050.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -378,7 +382,9 @@ make.start()
 <t tx="leo.20190105182050.2"># 動機
 
 * 在老師給的八個題目討論並研究，選擇了鋼球運動系統
-* 鋼球運動系統比較符合我們的能力</t>
+* 鋼球運動系統比較符合我們的能力
+
+</t>
 <t tx="leo.20190105182053.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -393,7 +399,9 @@ make.start()
 * 本研究透過繪製零組件，設計一套鋼球運動系統
 
 * 討論並決議要設計四種不同的運動機構，先繪製出升降梯、渦旋轉盤、螺桿及飛輪做定位再與軌道配合
-* 用V-rep模擬，檢查機構是否有干涉現象</t>
+* 用V-rep模擬，檢查機構是否有干涉現象
+
+</t>
 <t tx="leo.20190105182055.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -407,7 +415,9 @@ make.start()
 
 ## Marble Machine System
 
-###### 鋼球運動系統</t>
+###### 鋼球運動系統
+
+</t>
 <t tx="leo.20190105185031.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -419,7 +429,9 @@ make.start()
 </t>
 <t tx="leo.20190105185031.2"># 總結
 
-我們在這次的專題製作過程中遇到了很多挫折，像是裝配產生干涉，導致模擬時無法順利作動，以及PDF一直發生無法解決的錯誤，在老師及學長的幫助下，終於順利解決我們困擾已久的問題，也發生過成員間意見分歧的狀況，經過多次激烈的討論，讓每個人都能夠了解彼此的想法，統整大家的意見，從中分配出各自合適的工作，有效率的完成期末專題。</t>
+我們在這次的專題製作過程中遇到了很多挫折，像是裝配產生干涉，導致模擬時無法順利作動，以及PDF一直發生無法解決的錯誤，在老師及學長的幫助下，終於順利解決我們困擾已久的問題，也發生過成員間意見分歧的狀況，經過多次激烈的討論，讓每個人都能夠了解彼此的想法，統整大家的意見，從中分配出各自合適的工作，有效率的完成期末專題。
+
+</t>
 <t tx="leo.20190105185034.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -431,7 +443,9 @@ make.start()
 </t>
 <t tx="leo.20190105185034.2">## 過程
 
-&lt;img alt="" height="500" src="/images/process.png" width="1000"&gt;</t>
+&lt;img alt="" height="500" src="/images/process.jpg" width="1000"&gt;
+
+</t>
 <t tx="leo.20190105185037.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -446,7 +460,9 @@ make.start()
 * 升降梯：以馬達帶動偏心輪使樓梯做升降運動  
 * 渦旋轉盤：以馬達帶動渦旋轉盤做旋轉運動使鋼球上升
 * 螺桿：以馬達帶動螺桿做斜向上升運動
-* 飛輪：以馬達帶動飛輪做旋轉運動使鋼球上升</t>
+* 飛輪：以馬達帶動飛輪做旋轉運動使鋼球上升
+
+</t>
 <t tx="leo.20190105185038.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -460,7 +476,9 @@ make.start()
 
 * Onshape
 * Inventor
-* V-rep</t>
+* V-rep
+
+</t>
 <t tx="leo.20190105185040.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -495,7 +513,9 @@ Created by [bg3](https://github.com/mdecadp2018/finalproject-bg3)
 
 * 零件無法拆開
 * 開了實體碰撞，零件無法在正常的軌道上運作，會一直抖動
-* 軌道開了實體碰撞，模擬就會非常 lag</t>
+* 軌道開了實體碰撞，模擬就會非常 lag
+
+</t>
 <t tx="leo.20190105192314.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -512,7 +532,9 @@ Created by [bg3](https://github.com/mdecadp2018/finalproject-bg3)
 * 老師的名字無法顯示在 pdf
 * 無法在 leo 轉 pdf
 * 無法更新目錄
-* 圖片無法顯示</t>
+* 圖片無法顯示
+
+</t>
 <t tx="leo.20190105192656.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -534,6 +556,8 @@ Created by [bg3](https://github.com/mdecadp2018/finalproject-bg3)
 
 * 廖柏誠：Onshape Assembled, Design, V-rep
 
-* 湯峻傑：Onshape Constraint and Feature, Design</t>
+* 湯峻傑：Onshape Constraint and Feature, Design
+
+</t>
 </tnodes>
 </leo_file>
