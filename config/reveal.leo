@@ -443,9 +443,7 @@ make.start()
 </t>
 <t tx="leo.20190105185034.2">## 過程
 
-&lt;img alt="" height="500" src="/images/process.jpg" width="1000"&gt;
-
-</t>
+&lt;img src="/images/process.png"&gt;&lt;/img&gt;</t>
 <t tx="leo.20190105185037.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
