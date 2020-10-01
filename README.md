@@ -12,3 +12,4 @@
 設定步驟: https://github.com/scrum-1/scrum-1.github.io/wiki
 
 cpgx 網站: https://cpgx.kmol.info
+use google to solve any query https://google.com
